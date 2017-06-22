@@ -3,6 +3,9 @@
 % mechanical and MR tissue constants as well as a range or MEG durations
 % and HIFU offset times
 
+% More information in the following paper
+% Dadakova T, et al. Magn Reson Med (2017). Optimization of acoustic radiation force imaging: Influence of timing parameters on sensitivity
+
 % Contact: Tetiana Dadakova, tetiana.dadakova@uniklinik-freiburg.de or tetiana.d@gmail.com
 % 1. Department of Radiology - Medical Physics, Medical Center - University of Freiburg, Germany
 % 2. Faculty of Medicine, University of Freiburg, Germany
