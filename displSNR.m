@@ -1,5 +1,5 @@
 function [SNRdmean] = displSNR (delta, toffset, xmax, taur, taud, T2s, D, MEGtype)
-% More information in the following paper
+% More information in the following paper:
 % Dadakova T, et al. Magn Reson Med (2017). Optimization of acoustic radiation force imaging: Influence of timing parameters on sensitivity
 
 % displSNR calculated ARF-related mean displacement SNR (SNRdmean) for a range of
