@@ -1,14 +1,17 @@
 function [SNRdmean] = displSNR (delta, toffset, xmax, taur, taud, T2s, D, MEGtype)
+% More information in the following paper
+% Dadakova T, et al. Magn Reson Med (2017). Optimization of acoustic radiation force imaging: Influence of timing parameters on sensitivity
+
 % displSNR calculated ARF-related mean displacement SNR (SNRdmean) for a range of
 % mechanical and MR tissue constants as well as a range or MEG durations
 % and HIFU offset times
 %
 % --- Function input ---
-% delta    -TOTAL duration of MEG (Fig. 1), in ms
-% toffset  -time when the HIFU starts relative to the MEG start (Fig. 1), ms
+% delta    -TOTAL duration of MEG (Fig. 1 in the paper), in ms
+% toffset  -time when the HIFU starts relative to the MEG start (Fig. 1 in the paper), ms
 % xmax     -maximum ARF-related tissue displacement (would be achieved if the HIFU duration is infinite), in mm
-% taur     -rise  time constant of the overdamped responce model of the displacement (Eq. 2), ms
-% taud     -decay time constant of the overdamped responce model of the displacement (Eq. 2), ms
+% taur     -rise  time constant of the overdamped responce model of the displacement (Eq. 2 in the paper), ms
+% taud     -decay time constant of the overdamped responce model of the displacement (Eq. 2 in the paper), ms
 % T2s      -2star transverse relaxation time, ms
 % D        -diffusion coefficient, mm^2/ms
 % MEGtype  -MEG type: 1 corresponds to bipolar MEG and 2 correspond to tripolar MEG
