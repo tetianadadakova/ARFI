@@ -5,4 +5,4 @@ displSNR.m is a function that takes ranges of tissue mechanical and MR constants
 Example.m is code that shows how to use the function
 
 Feel free to contact me if you have questions:
-tetiana.dadakova@berkeley.edu
+tetiana.d@gmail.com
